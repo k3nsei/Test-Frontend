@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Frontend Developer Test</title>
+
+    <!-- Import & Load jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Load reset & normalize style sheet -->
+    <link rel="stylesheet" href="assets/style/normalize.css" type="text/css">
+
+    <!-- Load app style sheet -->
+    <link rel="stylesheet" href="assets/style/app.css" type="text/css">
+</head>
+<body>
+
+    <section id="schedule-wrapper">
+        <div id="schedule" class="container">
+            <h1>Tasks for this week</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="task">
+                                <span class="time">09:00</span>
+                                <span class="type">Task #1</span>
+                                <span class="remove">x</span>
+                            </div>
+                            <div class="task">
+                                <span class="time">10:00</span>
+                                <span class="type">Task #2</span>
+                                <span class="remove">x</span>
+                            </div>
+                        </td>
+                        <td class="no-tasks">
+                            no tasks
+                        </td>
+                        <td class="no-tasks">
+                            no tasks
+                        </td>
+                        <td class="no-tasks">
+                            no tasks
+                        </td>
+                        <td class="no-tasks">
+                            no tasks
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="schedule-control">
+        <div class="container">
+            <h1>Add Task</h1>
+            <div class="field">
+                <label for="input-task-day">Week day</label>:
+                <select id="input-task-day" name="task-day">
+                    <option value="1" selected>Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="4">Thursday</option>
+                    <option value="5">Friday</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="input-task-time">Time</label>:
+                <input id="input-task-time" name="task-time" type="time">
+            </div>
+            <div class="field">
+                <label for="input-task-name">Task name</label>:
+                <input id="input-task-name" name="task-name" type="text" placeholder="Task name">
+            </div>
+            <button>Add
+            </button>
+        </div>
+    </section>
+
+    <!-- Load app scripts -->
+    <script src="assets/scripts/app.js" type="text/javascript"></script>
+
+</body>
+</html>

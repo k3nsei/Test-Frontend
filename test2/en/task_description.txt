@@ -1,0 +1,10 @@
+Create a simple web application, which manages a weekly schedule.
+
+Application should:
+- allow task creation and deletion
+- present a list of tasks for each weekday (Monday to Friday), sorted by start time
+
+Please create CSS file for given HTML using Responsive Web Design rules.
+
+Notes:
+Use the existing structure of the html . Changes in the structure are permitted only in exceptional circumstances, and any such change must be justified and described in the file changes.txt
