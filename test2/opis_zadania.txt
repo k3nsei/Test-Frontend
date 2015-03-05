@@ -1,0 +1,6 @@
+Stwórz aplikację zarządzającą planem tygodnia.
+Funkcjonalność jaką trzeba stworzyć to:
+- dodaj zadanie
+- usuń zadanie
+- wyświetl listę zadań w tabeli reprezentującej 5 dni roboczych, zadania powinny być posortowane według godziny rosnąco
+Kluczowym aspektem jest też stworzenie arkusza css dla aplikacji. Z uwzględnieniem responsive web design (RWD).
